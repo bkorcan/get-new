@@ -1,0 +1,8 @@
+Create(
+    Ref( Collection('villas'), '103' ),
+    { data:{ name:'villa-103', price:'300' } }
+)
+
+Get(
+    Ref(Collection('villas'), '101'  )
+)
